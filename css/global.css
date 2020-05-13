@@ -1,0 +1,215 @@
+/* general */
+body{
+	color: #000;
+	background-color: #eaeaea !important;
+}
+.fs-9{
+	font-size: 9px;
+}
+.fs-12{
+	font-size: 12px;
+}
+.fs-13{
+	font-size: 13px;
+}
+.fs-15{
+	font-size: 15px;
+}
+.fs-19{
+	font-size: 19px;
+}
+.fs-21{
+	font-size: 20px;
+	line-height: 30px;
+}
+.fs-32{
+	font-size: 32px;
+}
+.fs-72{
+	font-size: 50px;
+}
+.titulo{
+	line-height: 65px;
+	padding: 0 0.5em;
+}
+img.fondo {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.fc-amarillo{
+	color: #ffd220;
+}
+.fc-blanco{
+	color: white;
+}
+.fc-azul{
+	color: #006ac8;
+}
+/* carousel */
+.carousel-caption{
+	color: #000;
+	font-family: helvetica;
+	left: 2em;
+	right: 2em;
+	top:0;
+}
+.carousel-indicators .active{
+	background-color: #ffd220;
+}
+.carousel-indicators li{
+	background-color: #000;
+	cursor: pointer;
+}
+/* ds */
+.contenedor{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 25%;
+	z-index: 9;
+}
+.form-control:focus{
+	background-color: transparent;
+}
+ form input[type="text"],
+ form input[type="email"]{
+ 	border:0;
+ 	border-bottom: 1px solid #b1b1b1;
+ 	border-radius: 0;
+ 	background-color: transparent;
+ 	font-size: 19px;
+ }
+form select{
+ 	border:0 !important;
+ 	border-bottom: 1px solid #b1b1b1 !important;
+ 	border-radius: 0 !important;
+ 	background-color: transparent !important;
+}
+.boton{
+	border: 1px solid #b1b1b1;
+	color: #b1b1b1;
+	cursor: pointer;
+	width: 189px;
+}
+.formulario{
+	background-color: rgba(255,255,255,0.8);
+	padding: 2em 2.2em 2em 2.2em;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.mensaje{
+	padding-top: 1em;
+}
+.msj_gracias{
+	font-size:42px;
+	line-height: 42px;
+}
+/* footer */
+.bc-1,
+.bc-2,
+.bc-3{
+	padding: 3em 0;
+}
+.bc-1{
+	background-color: #004c9a;
+}
+.bc-2{
+	background-color: #006ac8;
+}
+.bc-3{
+	background-color: #0092ff;
+}
+
+.d-sm-block {
+    display: block !important;
+	}
+
+.logo_upch{
+ 		float: left;
+ 		right: 10%;
+ 	}
+
+@media (max-width: 576px)
+{
+	.fs-72 {
+    font-size: 30px;
+	}
+
+
+	.fs-21 {
+    font-size: 16px;
+    line-height: 20px;
+	}
+
+	.d-sm-block {
+    display: block !important;
+	}
+
+	.contenedor{
+	top: 12%;
+	}
+
+	.titulo {
+    line-height: 40px;
+    padding: 0 0.5em;
+	}
+
+	form input[type="text"],
+ 	form input[type="email"]{
+ 	border:0;
+ 	border-bottom: 1px solid #b1b1b1;
+ 	border-radius: 0;
+ 	background-color: transparent;
+ 	font-size: 16px;
+ 	}
+
+ 	.form-control {
+ 		padding: 0 0;
+ 	}
+
+ 	.logo_upch{
+ 		width: 50%;
+ 		float: none;
+ 	}
+
+ 	.float-right {
+    float: none;
+	}
+
+	.text-right {
+    text-align:center !important;
+    max-width: none;
+	}
+
+	.formulario{
+	padding: 1em 2.2em 1em 2.2em;
+	}
+
+	.msj_gracias{
+		font-size:32px;
+		line-height: 32px;
+	}
+
+}
+
+@media (max-width: 360px)
+{
+	.fs-72 {
+    font-size: 24px;
+	}
+
+	.fs-21 {
+    font-size: 16px;
+    line-height: 16px;
+	}
+
+	.titulo {
+    line-height: 30px;
+    padding: 0 0.5em;
+	}
+
+}
